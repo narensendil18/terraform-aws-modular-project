@@ -7,7 +7,7 @@ ami = "ami-0c101f26f147fa7fd"
 
 instances = {
   web1 = {
-    instance_type = "t2.micro"
+    instance_type = "t3.micro"
     name          = "web1"
   }
   web2 = {

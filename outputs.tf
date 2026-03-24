@@ -10,10 +10,10 @@ output "subnet_id" {
 
 output "instance_ids" {
   description = "Map of EC2 instance IDs"
-  value = { for k, instance in module.ec2 : k => instance.instance_id }
+  value       = { for k, instance in module.ec2 : k => instance.instance_id }
 }
 
 output "public_ips" {
   description = "Map of EC2 public IPs"
-  value = { for k, instance in module.ec2 : k => instance.public_ip }
+  value       = { for k, instance in module.ec2 : k => instance.public_ip }
 }

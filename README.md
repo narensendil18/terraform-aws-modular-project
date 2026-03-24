@@ -6,10 +6,10 @@ This project demonstrates a modular Terraform setup for deploying AWS infrastruc
 
 The infrastructure includes:
 
-* A reusable **VPC module** (network layer)
-* A reusable **EC2 module** (compute layer)
-* A **remote S3 backend** for Terraform state management
-* A scalable EC2 deployment using **for_each**
+* A reusable VPC module
+* A reusable EC2 module 
+* A remote S3 backend for Terraform state management
+* A scalable EC2 deployment using for_each
 
 ---
 
@@ -34,7 +34,7 @@ The infrastructure is structured as follows:
 * Modular Terraform design
 * Reusable infrastructure components
 * Separation of network and compute layers
-* Dynamic EC2 creation using `for_each`
+* Dynamic EC2 creation using for_each
 * Remote backend using AWS S3
 
 ---
